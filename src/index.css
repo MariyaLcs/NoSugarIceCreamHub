@@ -216,7 +216,7 @@ footer.container {
 
 /*** HOME PAGE ***/
 .home-container {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/ice-cream-main.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
