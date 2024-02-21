@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import Home from "./Home";
 import Flavors from "./Flavors";
@@ -13,6 +13,9 @@ function App() {
           alt="sugar-free ice cream"
           title="Pure Joy IceCream | Home"
         />
+        <nav>
+          <Link to="/flavors">Flavors</Link>
+        </nav>
       </header>
       <Routes>
         <Route
