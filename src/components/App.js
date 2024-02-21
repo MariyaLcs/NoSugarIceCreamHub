@@ -15,7 +15,7 @@ function App() {
           element={<Home title="Welcome to Pure Joy IceCream" />}
         />
         <Route path="/flavors" element={<Flavors />}>
-          <Route path="/flavors/category" element={<Category />} />
+          <Route path=":categoryId" element={<Category />} />
         </Route>
         <Route path="/about" element={<About />} />
         <Route
