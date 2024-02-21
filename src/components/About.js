@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="container">
-      <h1>About PureJoyIceCream</h1>
+      <h1>About Pure Joy Ice Cream</h1>
       <p>
         At PureJoyIceCream, we're dedicated to crafting the finest sugar-free
         ice cream that delights the taste buds without compromising on health.

@@ -1,4 +1,5 @@
 import { getFlavors } from "../api";
+import { Outlet } from "react-router-dom";
 
 export default function Flavors() {
   const flavors = getFlavors();
@@ -10,6 +11,7 @@ export default function Flavors() {
           <li key={item.id}>{item.name}</li>
         ))}
       </ul>
+      <Outlet />
     </div>
   );
 }

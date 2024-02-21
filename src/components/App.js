@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Flavors from "./Flavors";
 import Header from "./Header";
+import Category from "./Category";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           path="/"
           element={<Home title="Welcome to Pure Joy IceCream" />}
         />
-        <Route path="/flavors" element={<Flavors />} />
+        <Route path="/flavors" element={<Flavors />}>
+          <Route path="/flavors/category" element={<Category />} />
+        </Route>
         <Route path="/about" element={<About />} />
       </Routes>
       <footer className="container">

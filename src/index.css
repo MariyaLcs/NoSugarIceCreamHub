@@ -15,7 +15,7 @@ body {
     Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff7ed;
+  background-color: #f2f9fa;
 }
 
 h1 {
@@ -64,7 +64,7 @@ ul li {
 /* nav & links */
 
 a {
-  color: #e7212b;
+  color: #0e281e;
 }
 
 a:hover {
@@ -74,7 +74,7 @@ a:hover {
 nav a {
   display: block;
   font-size: 1.5rem;
-  color: #dd1f26;
+  color: #0e281e;
   padding-bottom: 0.15em;
   border-bottom: 2px solid transparent;
   font-weight: 600;

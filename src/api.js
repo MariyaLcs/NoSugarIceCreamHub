@@ -7,22 +7,22 @@ const flavors = [
         name: "Vanilla Bliss",
         id: "vanilla-bliss",
         desc: "Experience the pure, smooth, and creamy taste of Vanilla Bliss, sweetened with natural ingredients for a guilt-free indulgence.",
-        speaker: {
-          name: "Chef Marco Bianchi",
-          title: "Culinary Expert",
-          org: "PureJoyIceCream",
-          bio: "Chef Marco Bianchi brings a touch of gourmet to sugar-free desserts, focusing on natural ingredients to create unforgettable flavors.",
+        productDetails: {
+          ingredients: "Natural vanilla extract, stevia, almond milk",
+          recipeHint:
+            "Our Vanilla Bliss starts with the infusion of Madagascar vanilla beans soaked in almond milk to extract the full spectrum of flavors. The mixture is then sweetened with stevia, a natural sweetener, ensuring a guilt-free indulgence. Every batch is slow-churned to creamy perfection, ensuring a smooth texture that melts delightfully in your mouth.",
+          kkal: "120 per serving",
         },
       },
       {
         name: "Rich Chocolate",
         id: "rich-chocolate",
         desc: "Dive into the deep, luxurious layers of Rich Chocolate, made from the finest cocoa and natural sweeteners. A true chocolate lover's dream without the sugar rush.",
-        speaker: {
-          name: "Julia Fernández",
-          title: "Chocolatier",
-          org: "PureJoyIceCream",
-          bio: "With a passion for chocolate and health, Julia Fernández crafts sugar-free chocolate ice cream that satisfies the sweet tooth and the soul.",
+        productDetails: {
+          ingredients: "Cocoa powder, monk fruit sweetener, coconut milk",
+          recipeHint:
+            "For our Rich Chocolate, we start with premium cocoa powder, renowned for its deep, intense chocolatey notes. We blend this with monk fruit sweetener and creamy coconut milk, creating a rich yet health-conscious treat. The mixture is carefully churned until it achieves a velvety smoothness that defines luxury in every spoonful.",
+          kkal: "150 per serving",
         },
       },
     ],
@@ -35,22 +35,22 @@ const flavors = [
         name: "Strawberry Fields",
         id: "strawberry-fields",
         desc: "Enjoy the fresh, tangy sweetness of Strawberry Fields, bursting with real strawberries and a hint of natural sweetness.",
-        speaker: {
-          name: "Anna Green",
-          title: "Nutritionist",
-          org: "PureJoyIceCream",
-          bio: "Anna Green specializes in creating delicious, health-conscious treats that celebrate the natural flavors of fruit.",
+        productDetails: {
+          ingredients: "Strawberries, erythritol, cashew milk",
+          recipeHint:
+            "Strawberry Fields is a celebration of summer's bounty. We begin with ripe, juicy strawberries, harvested at their peak sweetness. These berries are then blended with erythritol and lush cashew milk for a creamy base. Each batch is frozen slowly to preserve the vibrant flavor and nutritional integrity of the fresh fruit.",
+          kkal: "130 per serving",
         },
       },
       {
         name: "Mango Tango",
         id: "mango-tango",
         desc: "Let the vibrant flavor of Mango Tango whisk you away to tropical bliss. Made with real mangoes and a touch of natural sweetness.",
-        speaker: {
-          name: "Luis Ortega",
-          title: "Flavor Artist",
-          org: "PureJoyIceCream",
-          bio: "Luis Ortega combines his artistic talent and love for tropical fruits to create ice cream flavors that dance on the palate.",
+        productDetails: {
+          ingredients: "Mango, xylitol, oat milk",
+          recipeHint:
+            "Mango Tango combines the sweetness of Alphonso and the tanginess of Kesar mangoes, creating a symphony of flavors. The mango pulp is mixed with xylitol and creamy oat milk, then churned slowly to maintain the fruity essence. This process ensures a refreshing and exotic treat that dances on your palate.",
+          kkal: "140 per serving",
         },
       },
     ],
@@ -63,22 +63,22 @@ const flavors = [
         name: "Coconut Cream Dream",
         id: "coconut-cream-dream",
         desc: "Escape to paradise with Coconut Cream Dream, a creamy, coconut-flavored delight that's as smooth as it is satisfying.",
-        speaker: {
-          name: "Emily Tran",
-          title: "Exotic Flavor Specialist",
-          org: "PureJoyIceCream",
-          bio: "Emily Tran explores exotic ingredients to create ice cream flavors that offer a taste of adventure and escape.",
+        productDetails: {
+          ingredients: "Coconut milk, agave syrup, vanilla essence",
+          recipeHint:
+            "Coconut Cream Dream starts with the rich milk of sustainably sourced coconuts, blended to smoothness with natural agave syrup. A hint of vanilla essence is added to elevate the creamy texture, and the mixture is frozen to perfection, creating a luxurious tropical escape in every spoonful.",
+          kkal: "160 per serving",
         },
       },
       {
         name: "Pistachio Almond Fusion",
         id: "pistachio-almond-fusion",
         desc: "Indulge in the nutty, rich flavors of Pistachio Almond Fusion, a perfect blend of roasted pistachios and almonds in a creamy, sugar-free base.",
-        speaker: {
-          name: "Raj Patel",
-          title: "Nut Expert",
-          org: "PureJoyIceCream",
-          bio: "Raj Patel's expertise in nuts brings a unique depth and richness to ice cream, creating unforgettable, sugar-free nutty delights.",
+        productDetails: {
+          ingredients: "Pistachios, almonds, stevia, hemp milk",
+          recipeHint:
+            "Our Pistachio Almond Fusion is crafted by roasting premium pistachios and almonds to enhance their natural flavors. The roasted nuts are then finely ground and blended with stevia-sweetened hemp milk. This nutty concoction is churned to a creamy consistency, offering a sophisticated and richly satisfying experience.",
+          kkal: "170 per serving",
         },
       },
     ],
