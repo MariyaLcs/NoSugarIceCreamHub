@@ -199,7 +199,7 @@ header {
 }
 
 .not-found::before {
-  content: "😕";
+  content: "🍦";
   margin-right: 0.35em;
 }
 

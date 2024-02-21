@@ -18,6 +18,10 @@ function App() {
           <Route path="/flavors/category" element={<Category />} />
         </Route>
         <Route path="/about" element={<About />} />
+        <Route
+          path="*"
+          element={<h1 className="not-found">Page not found</h1>}
+        />
       </Routes>
       <footer className="container">
         &copy;2023 | <a href="/">Pure Joy IceCream</a>
