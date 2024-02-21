@@ -1,14 +1,6 @@
-import featImg from "../assets/ice-cream-main.jpg"; // Make sure you have an appealing ice cream image in your assets
-
 export default function Home({ title }) {
   return (
-    <div className="container">
-      <img
-        className="img-feat"
-        src={featImg}
-        alt="Delicious bowl of sugar-free ice cream"
-      />
-
+    <div className="home-container">
       <h1>{title}</h1>
       <p>
         Dive into the delightful world of PureJoyIceCream, where indulgence

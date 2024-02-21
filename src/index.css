@@ -7,6 +7,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+html,
 body {
   margin: 0;
   color: #222;
@@ -14,6 +15,7 @@ body {
     Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff7ed;
 }
 
 h1 {
@@ -209,8 +211,32 @@ footer.container {
 
 .container {
   width: 90%;
-  max-width: 800px;
   margin: 0 auto;
+}
+
+/*** HOME PAGE ***/
+.home-container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+    url("./assets/ice-cream-main.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 350px;
+  color: white;
+  padding: 45px 23px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.home-container h1 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 42px;
+}
+
+.home-container p {
+  line-height: 24px;
+  width: 80%;
 }
 
 /* media queries */
