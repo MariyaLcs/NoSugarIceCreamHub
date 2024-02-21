@@ -1,30 +1,27 @@
-import featImg from "../assets/img-main.jpg";
+import featImg from "../assets/ice-cream-main.jpg"; // Make sure you have an appealing ice cream image in your assets
 
-export default function Home() {
+export default function Home({ title }) {
   return (
     <div className="container">
       <img
         className="img-feat"
         src={featImg}
-        alt="Red30 Tech conference attendees on a laptop"
+        alt="Delicious bowl of sugar-free ice cream"
       />
 
-      <h1>Welcome</h1>
+      <h1>{title}</h1>
       <p>
-        This is a fictitious company and conference created by{" "}
-        <a
-          href="https://www.linkedin.com/feed/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          LinkedIn Corporation, or its affiliates
-        </a>
-        , solely for the creation and development of educational training
-        materials. Any resemblance to real products or services is purely
-        coincidental. Information provided about the products or services is
-        also fictitious and should not be construed as representative of actual
-        products or services on the market in a similar product or service
-        category.
+        Dive into the delightful world of PureJoyIceCream, where indulgence
+        meets health. Our sugar-free ice cream is crafted for those who seek the
+        joy of ice cream without the sugar. Made with natural sweeteners and the
+        freshest ingredients, every scoop is a step towards a healthier,
+        guilt-free treat.
+      </p>
+      <p>
+        At PureJoyIceCream, we believe in celebrating life's sweet moments
+        without compromise. Explore our variety of flavors and discover that
+        sugar-free can still mean full of taste. Because with us, it's not just
+        ice cream - it's a lifestyle.
       </p>
     </div>
   );

@@ -1,4 +1,7 @@
-import logo from "../assets/red30-tech-logo.png";
+import { Routes, Route } from "react-router-dom";
+import logo from "../assets/logo.png";
+import Home from "./Home";
+import Flavors from "./Flavors";
 
 function App() {
   return (
@@ -7,13 +10,19 @@ function App() {
         <img
           className="logo"
           src={logo}
-          alt="Red30 Tech logo"
-          title="Red30 Tech | Home"
+          alt="sugar-free ice cream"
+          title="Pure Joy IceCream | Home"
         />
       </header>
-
+      <Routes>
+        <Route
+          path="/"
+          element={<Home title="Welcome to Pure Joy IceCream" />}
+        />
+        <Route path="/flavors" element={<Flavors />} />
+      </Routes>
       <footer className="container">
-        &copy;2022 | <a href="https://red30tech.com/">Red30 Tech</a>
+        &copy;2023 | <a href="/">Pure Joy IceCream</a>
       </footer>
     </div>
   );

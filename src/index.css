@@ -1,12 +1,15 @@
 /* base styles */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   color: #222;
-  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -67,25 +70,25 @@ a:hover {
 nav a {
   display: block;
   font-size: 1.25rem;
-  color: #DD1F26;
+  color: #dd1f26;
   padding-bottom: 0.15em;
   border-bottom: 2px solid transparent;
   font-weight: 500;
   text-decoration: none;
 }
 
-nav a:hover, 
+nav a:hover,
 .nav-active {
   color: #5dabaa;
 }
 
-.categories a {
+.flavors a {
   font-weight: 500;
   color: #605e5e;
   text-decoration: none;
   padding: 0.25em 0.4em;
 }
-.categories a:hover, 
+.flavors a:hover,
 a.category-active {
   color: #fff;
   background-color: #605e5e;
@@ -101,7 +104,7 @@ a.category-active {
   border-radius: 3px;
 }
 
-.session a:hover, 
+.session a:hover,
 a.session-active {
   color: #489b9a;
 }
@@ -117,7 +120,7 @@ a.session-active {
   margin-bottom: 2em;
 }
 
-.categories {
+.flavors {
   margin-top: 2.5em;
   margin-bottom: 1.5em;
 }
@@ -216,11 +219,11 @@ footer.container {
 }
 
 @media (min-width: 768px) {
-  header, 
+  header,
   nav {
     display: flex;
     align-items: center;
-  } 
+  }
   header.container {
     margin-bottom: 1em;
   }
@@ -233,7 +236,7 @@ footer.container {
   .nav-active {
     border-bottom: 2px solid currentColor;
   }
-  .categories {
+  .flavors {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
