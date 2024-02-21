@@ -1,20 +1,23 @@
 export default function About() {
   return (
     <div className="container">
-      <h1>Technology and Business Solutions</h1>
+      <h1>About PureJoyIceCream</h1>
       <p>
-        Red30 Tech is the leading source of secure, fully customizable
-        technology and business solutions. We cater to those who need scalable
-        results that are sustainable for their company and the planet. With the
-        ever-evolving technology landscape, we want to be your go-to source for
-        business technology.
+        At PureJoyIceCream, we're dedicated to crafting the finest sugar-free
+        ice cream that delights the taste buds without compromising on health.
+        Our journey began with a simple mission: to create delicious, guilt-free
+        treats that everyone can enjoy, regardless of dietary restrictions or
+        health concerns. We believe that indulgence should not come with a cost
+        to your well-being.
       </p>
       <p>
-        Our mission is to provide technology and business-driven solutions that
-        work seamlessly with your company, allowing your employees, partners,
-        and customers to engage in quality interactions that lead to scalable
-        growth. We consistently work towards being the premier provider of
-        environmentally sustainable technology solutions that connect the world.
+        Our ice cream is made from natural, high-quality ingredients, sweetened
+        with alternatives that are kind to your body and the planet. From the
+        rich, creamy textures to the burst of flavors in every scoop, our ice
+        cream is a testament to our commitment to excellence and innovation in
+        sugar-free desserts. We strive to be your trusted brand for healthy
+        indulgence, bringing joy and pure satisfaction to ice cream lovers
+        everywhere.
       </p>
     </div>
   );

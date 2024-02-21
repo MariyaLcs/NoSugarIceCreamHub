@@ -189,7 +189,7 @@ input[type="submit"]:hover {
 }
 
 header {
-  padding: 1.75em 0;
+  padding: 0.25em 0;
 }
 
 .not-found {
@@ -226,9 +226,7 @@ footer.container {
     display: flex;
     align-items: center;
   }
-  header.container {
-    margin-bottom: 1em;
-  }
+
   nav {
     margin-left: auto;
   }
