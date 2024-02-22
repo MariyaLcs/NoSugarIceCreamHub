@@ -19,6 +19,7 @@ function App() {
           <Route path=":categoryId" element={<Category />}>
             <Route path=":sessionId" element={<Description />} />
           </Route>
+          <Route index element={<h5>Select a flavor from above!</h5>} />
         </Route>
         <Route path="/about" element={<About />} />
         <Route
