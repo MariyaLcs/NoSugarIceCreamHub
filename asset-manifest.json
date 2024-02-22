@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/NoSugarIceCreamHub/static/css/main.92bc89b3.css",
-    "main.js": "/NoSugarIceCreamHub/static/js/main.7f696495.js",
+    "main.js": "/NoSugarIceCreamHub/static/js/main.4f1ed8d9.js",
     "static/media/logo.png": "/NoSugarIceCreamHub/static/media/logo.73fa6ebfa2ac684b0229.png",
     "static/media/ice-cream-main.jpg": "/NoSugarIceCreamHub/static/media/ice-cream-main.8a18f3666c021faead16.jpg",
     "index.html": "/NoSugarIceCreamHub/index.html",
     "main.92bc89b3.css.map": "/NoSugarIceCreamHub/static/css/main.92bc89b3.css.map",
-    "main.7f696495.js.map": "/NoSugarIceCreamHub/static/js/main.7f696495.js.map"
+    "main.4f1ed8d9.js.map": "/NoSugarIceCreamHub/static/js/main.4f1ed8d9.js.map"
   },
   "entrypoints": [
     "static/css/main.92bc89b3.css",
-    "static/js/main.7f696495.js"
+    "static/js/main.4f1ed8d9.js"
   ]
 }
