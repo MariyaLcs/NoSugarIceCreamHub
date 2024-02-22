@@ -15,9 +15,15 @@ export default function Header() {
         />
       </Link>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/flavors">Flavors</Link>
+        <NavLink to="/" className={getClass}>
+          Home
+        </NavLink>
+        <NavLink to="/about" className={getClass}>
+          About
+        </NavLink>
+        <NavLink to="/flavors" className={getClass}>
+          Flavors
+        </NavLink>
       </nav>
     </header>
   );

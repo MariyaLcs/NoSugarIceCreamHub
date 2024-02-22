@@ -1,5 +1,5 @@
 import { getFlavors } from "../api";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 export default function Flavors() {
   const flavors = getFlavors();
@@ -9,7 +9,14 @@ export default function Flavors() {
       <ul className="flavors">
         {flavors.map((item) => (
           <li key={item.id}>
-            <Link to={item.id}>{item.name}</Link>
+            <NavLink
+              to={item.id}
+              className={({ isActive }) =>
+                isActive ? "category-active" : null
+              }
+            >
+              {item.name}
+            </NavLink>
           </li>
         ))}
       </ul>

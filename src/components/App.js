@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Home title="Welcome to Pure Joy IceCream" />}
+          element={<Home title="Welcome to Pure Joy Ice Cream" />}
         />
         <Route path="/flavors" element={<Flavors />}>
           <Route path=":categoryId" element={<Category />} />
@@ -24,7 +24,7 @@ function App() {
         />
       </Routes>
       <footer className="container">
-        &copy;2023 | <a href="/">Pure Joy IceCream</a>
+        &copy;2023 | <a href="/">Pure Joy Ice Cream</a>
       </footer>
     </div>
   );
