@@ -16,8 +16,6 @@ export default function Description() {
         />
       </div>
       <div style={{ flex: 1, padding: "20px" }}>
-        {" "}
-        {/* Add some padding for text */}
         <h4>{productDetails.ingredients}</h4>
         <p>{productDetails.kcal}</p>
         <p>{productDetails.recipeHint}</p>

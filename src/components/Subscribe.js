@@ -7,7 +7,7 @@ export default function Subscribe() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    navigate("/confirmed");
+    navigate("/confirmed", { state: { phone: phoneRef.current.value } });
   }
 
   return (
