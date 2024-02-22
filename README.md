@@ -2,6 +2,10 @@
 
 This project, inspired by the LinkedIn Learning course [Building Modern UIs with React Router v6](https://www.linkedin.com/learning/building-modern-uis-with-react-router-v6), showcases a dynamic web application for exploring and subscribing to sugar-free ice cream deliveries. Utilizing React Router v6 and React Hooks, it demonstrates advanced routing techniques and state management to create an engaging user experience for discovering delicious, health-conscious ice cream flavors.
 
+## Live Demo
+
+Check out the live demo of the project here: [Sugar-Free Ice Cream Hub Live Demo](https://mariyalcs.github.io/NoSugarIceCreamHub/)
+
 ## About The Project
 
 The Sugar-Free Ice Cream Hub allows users to browse through a variety of sugar-free ice cream flavors, each with detailed descriptions, ingredients, and nutritional information. It features a subscription form for monthly deliveries, enhancing the connection between ice cream enthusiasts and their favorite treats.
@@ -24,7 +28,3 @@ The Sugar-Free Ice Cream Hub allows users to browse through a variety of sugar-f
   - `useParams` for capturing dynamic segments of the URL, enabling component rendering based on parameter values.
   - `useLocation` for accessing the location object to read the current pathname, search string, and other URL components, useful for making decisions based on the current route.
   - `useNavigate` for programmatically navigating to different routes, offering a method to redirect users after certain actions, like form submissions or login.
-
-## Live Demo
-
-Check out the live demo of the project here: [Sugar-Free Ice Cream Hub Live Demo](https://mariyalcs.github.io/NoSugarIceCreamHub/)
