@@ -4,10 +4,13 @@ import { useNavigate } from "react-router-dom";
 export default function Subscribe() {
   const navigate = useNavigate();
   const phoneRef = useRef(null);
+  const nameRef = useRef(null);
 
   function handleSubmit(event) {
     event.preventDefault();
-    navigate("/confirmed", { state: { phone: phoneRef.current.value } });
+    navigate("/confirmed", {
+      state: { phone: phoneRef.current.value, name: nameRef.current.value },
+    });
   }
 
   return (
@@ -19,6 +22,15 @@ export default function Subscribe() {
         happiness every month.
       </p>
       <form onSubmit={handleSubmit}>
+        <label>
+          Name:
+          <input
+            type="text"
+            name="name"
+            ref={nameRef}
+            placeholder="Your name"
+          />
+        </label>
         <label>
           Phone Number:
           <input
