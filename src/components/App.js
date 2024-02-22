@@ -26,10 +26,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="subscribe" element={<Subscribe />} />
         <Route path="confirmed" element={<Confirmation />} />
-        <Route
-          path="*"
-          element={<h1 className="not-found">Page not found</h1>}
-        />
+        <Route path="*" element={<Home />} />
       </Routes>
       <footer className="container">
         &copy;2023 | <a href="/">Pure Joy Ice Cream</a>
