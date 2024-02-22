@@ -10,8 +10,9 @@ const flavors = [
         productDetails: {
           ingredients: "Natural vanilla extract, stevia, almond milk",
           recipeHint:
-            "Our Vanilla Bliss starts with the infusion of Madagascar vanilla beans soaked in almond milk to extract the full spectrum of flavors. The mixture is then sweetened with stevia, a natural sweetener, ensuring a guilt-free indulgence. Every batch is slow-churned to creamy perfection, ensuring a smooth texture that melts delightfully in your mouth.",
-          kkal: "120 per serving",
+            "Our Vanilla Bliss starts with the infusion of Madagascar vanilla beans soaked in almond milk to extract the full spectrum of flavors. The mixture is then sweetened with stevia, ensuring a guilt-free indulgence. Every batch is slow-churned to creamy perfection, ensuring a smooth texture that melts delightfully in your mouth.",
+          kcal: "120 kcal per serving",
+          image: "vanilla-bliss.jpg",
         },
       },
       {
@@ -22,7 +23,8 @@ const flavors = [
           ingredients: "Cocoa powder, monk fruit sweetener, coconut milk",
           recipeHint:
             "For our Rich Chocolate, we start with premium cocoa powder, renowned for its deep, intense chocolatey notes. We blend this with monk fruit sweetener and creamy coconut milk, creating a rich yet health-conscious treat. The mixture is carefully churned until it achieves a velvety smoothness that defines luxury in every spoonful.",
-          kkal: "150 per serving",
+          kcal: "150 kcal per serving",
+          image: "rich-chocolate.jpg",
         },
       },
     ],
@@ -39,7 +41,8 @@ const flavors = [
           ingredients: "Strawberries, erythritol, cashew milk",
           recipeHint:
             "Strawberry Fields is a celebration of summer's bounty. We begin with ripe, juicy strawberries, harvested at their peak sweetness. These berries are then blended with erythritol and lush cashew milk for a creamy base. Each batch is frozen slowly to preserve the vibrant flavor and nutritional integrity of the fresh fruit.",
-          kkal: "130 per serving",
+          kcal: "130 kcal per serving",
+          image: "strawberry-fields.jpg",
         },
       },
       {
@@ -50,7 +53,8 @@ const flavors = [
           ingredients: "Mango, xylitol, oat milk",
           recipeHint:
             "Mango Tango combines the sweetness of Alphonso and the tanginess of Kesar mangoes, creating a symphony of flavors. The mango pulp is mixed with xylitol and creamy oat milk, then churned slowly to maintain the fruity essence. This process ensures a refreshing and exotic treat that dances on your palate.",
-          kkal: "140 per serving",
+          kcal: "140 kcal per serving",
+          image: "mango-tango.jpg",
         },
       },
     ],
@@ -67,7 +71,8 @@ const flavors = [
           ingredients: "Coconut milk, agave syrup, vanilla essence",
           recipeHint:
             "Coconut Cream Dream starts with the rich milk of sustainably sourced coconuts, blended to smoothness with natural agave syrup. A hint of vanilla essence is added to elevate the creamy texture, and the mixture is frozen to perfection, creating a luxurious tropical escape in every spoonful.",
-          kkal: "160 per serving",
+          kcal: "160 kcal per serving",
+          image: "coconut-cream-dream.jpg",
         },
       },
       {
@@ -78,7 +83,8 @@ const flavors = [
           ingredients: "Pistachios, almonds, stevia, hemp milk",
           recipeHint:
             "Our Pistachio Almond Fusion is crafted by roasting premium pistachios and almonds to enhance their natural flavors. The roasted nuts are then finely ground and blended with stevia-sweetened hemp milk. This nutty concoction is churned to a creamy consistency, offering a sophisticated and richly satisfying experience.",
-          kkal: "170 per serving",
+          kcal: "170 kcal per serving",
+          image: "pistachio-almond-fusion.jpg",
         },
       },
     ],
@@ -91,7 +97,7 @@ export function getSession({ sessionId, catId }) {
     .sessions.find(({ id }) => id === sessionId);
 }
 
-export function getCategory(catId) {
+export function getFlavor(catId) {
   return flavors.find(({ id }) => id === catId);
 }
 

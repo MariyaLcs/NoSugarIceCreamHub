@@ -25,7 +25,7 @@ h1 {
 
 h2 {
   font-size: 1.85rem;
-  color: #858585;
+  color: #493f2c;
 }
 
 h3 {
@@ -144,8 +144,11 @@ ul.session-list {
 
 .session p {
   margin: 0;
+  color: #473837;
 }
-
+.session h5 {
+  color: #473837;
+}
 form {
   font-size: 1.25rem;
   margin: 2em auto;
