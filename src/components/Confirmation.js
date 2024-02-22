@@ -1,8 +1,8 @@
 export default function Confirmation() {
   return (
     <div className="container">
-      <h1>Thank You!</h1>
-      <p>You're now registered for Red30 Tech.</p>
+      <h1>Thank you for subscribing!</h1>
+      <p>We will contact you soon 🍦</p>
     </div>
   );
 }

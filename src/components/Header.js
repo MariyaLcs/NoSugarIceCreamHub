@@ -24,6 +24,9 @@ export default function Header() {
         <NavLink to="/flavors" className={getClass}>
           Flavors
         </NavLink>
+        <NavLink to="/subscribe" className={getClass}>
+          Subscribe
+        </NavLink>
       </nav>
     </header>
   );

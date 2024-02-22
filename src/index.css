@@ -111,6 +111,7 @@ a.category-active {
 .session a:hover,
 a.session-active {
   color: #489b9a;
+  background-color: #f2dfdf;
 }
 
 /* components & assets */
@@ -136,6 +137,9 @@ ul.session-list {
 .session + .session {
   margin-left: 1.5em;
 }
+.session {
+  width: 48%;
+}
 
 .session-name {
   font-size: 1.125rem;
@@ -146,9 +150,7 @@ ul.session-list {
   margin: 0;
   color: #473837;
 }
-.session h5 {
-  color: #473837;
-}
+
 form {
   font-size: 1.25rem;
   margin: 2em auto;
