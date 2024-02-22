@@ -91,9 +91,9 @@ const flavors = [
   },
 ];
 
-export function getSession({ sessionId, catId }) {
+export function getSession({ sessionId, categoryId }) {
   return flavors
-    .find(({ id }) => id === catId)
+    .find(({ id }) => id === categoryId)
     .sessions.find(({ id }) => id === sessionId);
 }
 

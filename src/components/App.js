@@ -4,6 +4,7 @@ import About from "./About";
 import Flavors from "./Flavors";
 import Header from "./Header";
 import Category from "./Category";
+import Description from "./Description";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
           element={<Home title="Welcome to Pure Joy Ice Cream" />}
         />
         <Route path="/flavors" element={<Flavors />}>
-          <Route path=":categoryId" element={<Category />} />
+          <Route path=":categoryId" element={<Category />}>
+            <Route path=":sessionId" element={<Description />} />
+          </Route>
         </Route>
         <Route path="/about" element={<About />} />
         <Route
